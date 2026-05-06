@@ -37,4 +37,7 @@ This project is now arranged in separate folders:
 ![Homepage Screenshot](images/Home_Page.png)
 
 
+![Dashboard Screenshot](images/Dashboard.png)
+
+![BookingPageScreenshot](images/Booking_Page.png)
 
