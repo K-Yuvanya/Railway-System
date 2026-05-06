@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Reports</title><link rel="stylesheet" href="./style.css" /></head>
+<body>
+  <div class="page-wrap">
+    <div class="top-links"><a href="./index.html">Home</a><a href="./searchFilter.html">Search</a></div>
+    <h2>Revenue & Occupancy Reports</h2>
+    <div class="panel" id="report-summary"></div>
+    <div class="panel"><h3>All Bookings</h3><table><thead><tr><th>PNR</th><th>Passenger</th><th>Train</th><th>Fare</th><th>Status</th></tr></thead><tbody id="report-table"></tbody></table></div>
+    <div class="panel" style="margin-top: 20px;">
+      <h3>Cancellation Records</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>PNR</th>
+            <th>Passenger</th>
+            <th>Refund Amount</th>
+            <th>Reason</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="cancellation-table"></tbody>
+      </table>
+    </div>
+  </div>
+  <script src="./script3.js"></script>
+</body>
+</html>

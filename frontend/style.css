@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0a0f1e;
+  color: #fff;
+}
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+}
+h1 { margin-bottom: 8px; }
+.subtitle { color: #a8b2c2; margin-bottom: 20px; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 14px;
+}
+.card {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background: #111827;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 20px;
+  border-radius: 10px;
+}
+.card:hover { border-color: #f4a11d; }
+.page-wrap {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.top-links a {
+  color: #f4a11d;
+  margin-right: 12px;
+  text-decoration: none;
+}
+.panel {
+  background: #111827;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+input, select, button {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+input, select { background: #1a2035; color: #ffffff !important; }
+::placeholder { color: rgba(255, 255, 255, 0.5); }
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+}
+button { background: #f4a11d; border: none; cursor: pointer; color: #000; font-weight: 700; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { border-bottom: 1px solid rgba(255, 255, 255, 0.08); padding: 8px; text-align: left; }
+.row { display: grid; grid-template-columns: repeat(2, minmax(100px, 1fr)); gap: 10px; }

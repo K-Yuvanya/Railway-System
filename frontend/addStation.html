@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Station Management</title><link rel="stylesheet" href="./style.css" /></head>
+<body>
+  <div class="page-wrap">
+    <div class="top-links"><a href="./index.html">Home</a><a href="./addTrain.html">Trains</a></div>
+    <h2>Station Management</h2>
+    <div class="panel">
+      <div class="row">
+        <input id="st-code" placeholder="Code" />
+        <input id="st-name" placeholder="Name" />
+        <input id="st-city" placeholder="City" />
+        <input id="st-state" placeholder="State" />
+        <input id="st-plat" type="number" placeholder="Platforms" />
+        <select id="st-zone"><option>Northern</option><option>Southern</option><option>Eastern</option><option>Western</option><option>Central</option></select>
+      </div>
+      <button id="add-station-btn">Add Station</button>
+    </div>
+    <div class="panel"><table><thead><tr><th>Code</th><th>Name</th><th>City</th><th>State</th><th>Platforms</th></tr></thead><tbody id="station-table"></tbody></table></div>
+  </div>
+  <script src="./script2.js"></script>
+</body>
+</html>

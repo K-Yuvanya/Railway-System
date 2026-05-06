@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #0a0f1e, #111827);
+  color: #fff;
+}
+.auth-box {
+  width: 340px;
+  margin: 80px auto;
+  padding: 20px;
+  background: rgba(17, 24, 39, 0.95);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.auth-box h2 { margin-top: 0; }
+.auth-box input, .auth-box button {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.hint { color: #a8b2c2; font-size: 13px; margin-top: 10px; }

@@ -1,0 +1,15 @@
+{
+  "name": "railway-system-database",
+  "version": "1.0.0",
+  "description": "Railway DBMS project inspired by multi-page college DBMS repo style.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "mysql2": "^3.22.2"
+  }
+}

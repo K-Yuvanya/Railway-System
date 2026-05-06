@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Schedule</title><link rel="stylesheet" href="./style.css" /></head>
+<body>
+  <div class="page-wrap">
+    <div class="top-links"><a href="./index.html">Home</a><a href="./addTrain.html">Trains</a><a href="./addStation.html">Stations</a></div>
+    <h2>Schedule Management</h2>
+    <div class="panel">
+      <div class="row">
+        <select id="sc-train"></select>
+        <select id="sc-station"></select>
+        <input id="sc-arr" type="time" />
+        <input id="sc-dep" type="time" />
+        <input id="sc-stop" type="number" placeholder="Stop Number" />
+        <select id="sc-day"><option>Day 1</option><option>Day 2</option><option>Day 3</option></select>
+      </div>
+      <button id="add-schedule-btn">Add Stop</button>
+    </div>
+    <div class="panel" id="schedule-view"></div>
+  </div>
+  <script src="./script2.js"></script>
+</body>
+</html>

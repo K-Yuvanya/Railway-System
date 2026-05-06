@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Ticket Booking</title><link rel="stylesheet" href="./style.css" /></head>
+<body>
+  <div class="page-wrap">
+    <div class="top-links"><a href="./index.html">Home</a><a href="./addTrain.html">Trains</a><a href="./schedule.html">Schedule</a></div>
+    <h2>Ticket Booking & Cancellation</h2>
+    <div class="panel">
+      <div class="row">
+        <input id="b-name" placeholder="Passenger Name" />
+        <input id="b-email" placeholder="Email" />
+        <input id="b-phone" placeholder="Phone" />
+        <input id="b-age" type="number" placeholder="Age" />
+        <select id="b-train"></select>
+        <input id="b-date" type="date" />
+        <select id="b-class"><option value="SL">Sleeper</option><option value="3A">3A</option><option value="2A">2A</option><option value="1A">1A</option><option value="GN">General</option></select>
+        <input id="b-qty" type="number" min="1" max="6" value="1" />
+      </div>
+      <button id="book-btn">Book Ticket</button>
+      <p id="fare-display"></p>
+    </div>
+    <div class="panel"><input id="b-search" placeholder="Search PNR or Name" /><table><thead><tr><th>PNR</th><th>Name</th><th>Train</th><th>Class</th><th>Seat</th><th>Qty</th><th>Fare</th><th>Status</th><th>Action</th></tr></thead><tbody id="booking-table"></tbody></table></div>
+  </div>
+  <script src="./script2.js"></script>
+</body>
+</html>

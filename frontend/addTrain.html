@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Train Management</title><link rel="stylesheet" href="./style.css" /></head>
+<body>
+  <div class="page-wrap">
+    <div class="top-links"><a href="./index.html">Home</a><a href="./addStation.html">Stations</a><a href="./booking.html">Booking</a><a href="./searchFilter.html">Search</a></div>
+    <h2>Train Management</h2>
+    <div class="panel">
+      <div class="row">
+        <input id="t-num" placeholder="Train Number" />
+        <input id="t-name" placeholder="Train Name" />
+        <input id="t-src" placeholder="Source" />
+        <input id="t-dst" placeholder="Destination" />
+        <input id="t-seats" type="number" placeholder="Total Seats" />
+        <select id="t-type"><option>Express</option><option>Superfast</option><option>Passenger</option></select>
+        <input id="t-sl" type="number" placeholder="Sleeper Fare" />
+        <input id="t-3a" type="number" placeholder="3A Fare" />
+        <input id="t-2a" type="number" placeholder="2A Fare" />
+        <input id="t-1a" type="number" placeholder="1A Fare" />
+        <input id="t-gn" type="number" placeholder="General Fare" />
+        <select id="t-status"><option>On Time</option><option>Delayed</option><option>Cancelled</option></select>
+      </div>
+      <button id="add-train-btn">Add Train</button>
+    </div>
+    <div class="panel"><table><thead><tr><th>No</th><th>Name</th><th>From</th><th>To</th><th>Seats</th><th>Available</th></tr></thead><tbody id="train-table"></tbody></table></div>
+  </div>
+  <script src="./script2.js"></script>
+</body>
+</html>
