@@ -33,11 +33,14 @@ This project is now arranged in separate folders:
 4. Open:
    - `http://localhost:3000/login.html`
 
-#Website images
+## Website images
+
+## **Homepage**
 ![Homepage Screenshot](images/Home_Page.png)
 
-
+## **Dashboard**
 ![Dashboard Screenshot](images/Dashboard.png)
 
+## **Bookingpage**
 ![BookingPageScreenshot](images/Booking_Page.png)
 
